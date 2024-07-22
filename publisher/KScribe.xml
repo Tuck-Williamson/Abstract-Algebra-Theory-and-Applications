@@ -43,6 +43,7 @@
     <!-- 1.25 inch side margins, 0.75 inch top/bottom                -->
     <!-- N.B. Keep sync'ed with public.xml publication file.         -->
     <latex print="no" font-size="11">
+        <cover front="cover/cover_aata_2022-epub.png"/>
         <page>
             <geometry>left=1.25in,right=1.25in,top=0.75in,bottom=0.75in,headsep=0.25in</geometry>
         </page>

@@ -1480,6 +1480,7 @@
     <!-- Title: Preliminaries -->
   <exercises xml:id="sets-exercises" filenamebase="sets" permid="mDp">
     <title>Exercises</title>
+    <xref ref="ans-sets-exercises" />
     <exercise number="1" permid="nnj" xml:id="sets-exercise-set-operations">
       <statement>
         <p permid="AHh">

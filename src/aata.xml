@@ -22,7 +22,7 @@
     <subtitle>Theory and Applications</subtitle>
     <xi:include href="./frontmatter.xml" />                 <!-- Title Page, Preface, etc. -->
     <xi:include href="./sets.xml" />                        <!-- Set Theory  -->
-    <xi:include href="./integers.xml" />                    <!-- Integers -->
+    <xi:include href="./integers.ptx" />                    <!-- Integers -->
     <xi:include href="./groups.xml" />                      <!-- Groups -->
     <xi:include href="./cyclic.xml" />                      <!-- Cyclic Groups -->
     <xi:include href="./permute.xml" />                     <!-- Permutation Groups -->
@@ -51,4 +51,3 @@
     <xi:include href="./backmatter.xml" />                  <!-- GFDL, Hints, Notation -->
   </book>
 </pretext>
-
