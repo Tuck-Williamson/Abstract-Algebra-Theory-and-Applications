@@ -9,120 +9,140 @@
 <!-- This file is part of the book                    -->
 <!--                                                  -->
 <!-- See the file COPYING for copying conditions.     -->
-<!-- <solutions divisional="hint answer" permid="aKW">
+<solutions divisional="hint answer" permid="aKW">
     <title>Hints and Answers to Selected Exercises</title>
-</solutions> -->
-
-<solutions xml:id="ans-sets-exercises" scope="sets-exercises" divisional="hint answer">
-    <title>Solutions to selected sets exercises</title>
 </solutions>
-<!-- 
-<solutions xml:id="ans-integers-exercises" scope="integers-exercises" divisional="hint answer">
-    <title>Solutions to selected exercises</title>
-</solutions>
+<!-- <appendix xml:id="appendix-list-solutions">
+    <title>Solutions</title>
 
-<solutions xml:id="ans-actions-exercises" scope="actions-exercises" divisional="hint answer">
-    <title>Solutions to selected actions exercises</title>
-</solutions>
+    <solutions xml:id="ans-sets-exercises" scope="sets-exercises" divisional="hint answer">
+        <title>Solutions to selected sets exercises</title>
+        <xref ref="sets-exercises" />
+    </solutions>
 
+    <solutions xml:id="ans-integers-exercises" scope="integers-exercises" divisional="hint answer">
+        <title>Solutions to selected integers exercises</title>
+        <xref ref="integers-exercises" />
+    </solutions>
 
-<solutions xml:id="ans-algcodes-exercises" scope="algcodes-exercises" divisional="hint answer">
-    <title>Solutions to selected algcodes exercises</title>
-</solutions>
+    <solutions xml:id="ans-actions-exercises" scope="actions-exercises" divisional="hint answer">
+        <title>Solutions to selected actions exercises</title>
+        <xref ref="actions-exercises" />
+    </solutions>
 
-
-<solutions xml:id="ans-boolean-exercises" scope="boolean-exercises" divisional="hint answer">
-    <title>Solutions to selected boolean exercises</title>
-</solutions>
-
-
-<solutions xml:id="ans-cosets-exercises" scope="cosets-exercises" divisional="hint answer">
-    <title>Solutions to selected cosets exercises</title>
-</solutions>
-
-
-<solutions xml:id="ans-crypt-exercises" scope="crypt-exercises" divisional="hint answer">
-    <title>Solutions to selected crypt exercises</title>
-</solutions>
+    <solutions xml:id="ans-algcodes-exercises" scope="algcodes-exercises" divisional="hint answer">
+        <title>Solutions to selected algcodes exercises</title>
+        <xref ref="algcodes-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-cyclic-exercises" scope="cyclic-exercises" divisional="hint answer">
-    <title>Solutions to selected cyclic exercises</title>
-</solutions>
+    <solutions xml:id="ans-boolean-exercises" scope="boolean-exercises" divisional="hint answer">
+        <title>Solutions to selected boolean exercises</title>
+        <xref ref="boolean-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-domains-exercises" scope="domains-exercises" divisional="hint answer">
-    <title>Solutions to selected domains exercises</title>
-</solutions>
+    <solutions xml:id="ans-cosets-exercises" scope="cosets-exercises" divisional="hint answer">
+        <title>Solutions to selected cosets exercises</title>
+        <xref ref="cosets-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-fields-exercises" scope="fields-exercises" divisional="hint answer">
-    <title>Solutions to selected fields exercises</title>
-</solutions>
+    <solutions xml:id="ans-crypt-exercises" scope="crypt-exercises" divisional="hint answer">
+        <title>Solutions to selected crypt exercises</title>
+        <xref ref="crypt-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-finite-exercises" scope="finite-exercises" divisional="hint answer">
-    <title>Solutions to selected finite exercises</title>
-</solutions>
+    <solutions xml:id="ans-cyclic-exercises" scope="cyclic-exercises" divisional="hint answer">
+        <title>Solutions to selected cyclic exercises</title>
+        <xref ref="cyclic-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-galois-exercises" scope="galois-exercises" divisional="hint answer">
-    <title>Solutions to selected galois exercises</title>
-</solutions>
+    <solutions xml:id="ans-domains-exercises" scope="domains-exercises" divisional="hint answer">
+        <title>Solutions to selected domains exercises</title>
+        <xref ref="domains-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-groups-exercises" scope="groups-exercises" divisional="hint answer">
-    <title>Solutions to selected groups exercises</title>
-</solutions>
+    <solutions xml:id="ans-fields-exercises" scope="fields-exercises" divisional="hint answer">
+        <title>Solutions to selected fields exercises</title>
+        <xref ref="fields-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-homomorph-exercises" scope="homomorph-exercises" divisional="hint answer">
-    <title>Solutions to selected homomorph exercises</title>
-</solutions>
+    <solutions xml:id="ans-finite-exercises" scope="finite-exercises" divisional="hint answer">
+        <title>Solutions to selected finite exercises</title>
+        <xref ref="finite-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-integers-exercises" scope="integers-exercises" divisional="hint answer">
-    <title>Solutions to selected integers exercises</title>
-</solutions>
+    <solutions xml:id="ans-galois-exercises" scope="galois-exercises" divisional="hint answer">
+        <title>Solutions to selected galois exercises</title>
+        <xref ref="galois-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-isomorph-exercises" scope="isomorph-exercises" divisional="hint answer">
-    <title>Solutions to selected isomorph exercises</title>
-</solutions>
+    <solutions xml:id="ans-groups-exercises" scope="groups-exercises" divisional="hint answer">
+        <title>Solutions to selected groups exercises</title>
+        <xref ref="groups-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-matrix-exercises" scope="matrix-exercises" divisional="hint answer">
-    <title>Solutions to selected matrix exercises</title>
-</solutions>
+    <solutions xml:id="ans-homomorph-exercises" scope="homomorph-exercises" divisional="hint answer">
+        <title>Solutions to selected homomorph exercises</title>
+        <xref ref="homomorph-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-normal-exercises" scope="normal-exercises" divisional="hint answer">
-    <title>Solutions to selected normal exercises</title>
-</solutions>
+    <solutions xml:id="ans-isomorph-exercises" scope="isomorph-exercises" divisional="hint answer">
+        <title>Solutions to selected isomorph exercises</title>
+        <xref ref="isomorph-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-permute-exercises" scope="permute-exercises" divisional="hint answer">
-    <title>Solutions to selected permute exercises</title>
-</solutions>
+    <solutions xml:id="ans-matrix-exercises" scope="matrix-exercises" divisional="hint answer">
+        <title>Solutions to selected matrix exercises</title>
+        <xref ref="matrix-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-poly-exercises" scope="poly-exercises" divisional="hint answer">
-    <title>Solutions to selected poly exercises</title>
-</solutions>
+    <solutions xml:id="ans-normal-exercises" scope="normal-exercises" divisional="hint answer">
+        <title>Solutions to selected normal exercises</title>
+        <xref ref="normal-exercises" />
+    </solutions>
 
 
-<solutions xml:id="ans-rings-exercises" scope="rings-exercises" divisional="hint answer">
-    <title>Solutions to selected rings exercises</title>
-</solutions>
+    <solutions xml:id="ans-permute-exercises" scope="permute-exercises" divisional="hint answer">
+        <title>Solutions to selected permute exercises</title>
+        <xref ref="permute-exercises" />
+    </solutions>
 
-<solutions xml:id="ans-struct-exercises" scope="struct-exercises" divisional="hint answer">
-    <title>Solutions to selected struct exercises</title>
-</solutions>
 
-<solutions xml:id="ans-sylow-exercises" scope="sylow-exercises" divisional="hint answer">
-    <title>Solutions to selected sylow exercises</title>
-</solutions>
+    <solutions xml:id="ans-poly-exercises" scope="poly-exercises" divisional="hint answer">
+        <title>Solutions to selected poly exercises</title>
+        <xref ref="poly-exercises" />
+    </solutions>
 
-<solutions xml:id="ans-vect-exercises" scope="vect-exercises" divisional="hint answer">
-    <title>Solutions to selected vect exercises</title>
-</solutions> -->
+
+    <solutions xml:id="ans-rings-exercises" scope="rings-exercises" divisional="hint answer">
+        <title>Solutions to selected rings exercises</title>
+        <xref ref="rings-exercises" />
+    </solutions>
+
+    <solutions xml:id="ans-struct-exercises" scope="struct-exercises" divisional="hint answer">
+        <title>Solutions to selected struct exercises</title>
+        <xref ref="struct-exercises" />
+    </solutions>
+
+    <solutions xml:id="ans-sylow-exercises" scope="sylow-exercises" divisional="hint answer">
+        <title>Solutions to selected sylow exercises</title>
+        <xref ref="sylow-exercises" />
+    </solutions>
+
+    <solutions xml:id="ans-vect-exercises" scope="vect-exercises" divisional="hint answer">
+        <title>Solutions to selected vect exercises</title>
+        <xref ref="vect-exercises" />
+    </solutions>
+</appendix> -->

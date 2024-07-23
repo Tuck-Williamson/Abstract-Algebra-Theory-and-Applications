@@ -12,7 +12,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
 <!-- Assumes current file is in mathbook/user, so it must be copied there -->
-<xsl:import href="../xsl/pretext-latex.xsl" />
+<xsl:import href="./core/pretext-latex.xsl" />
 
 <!-- Formatting adjustments and overrides     -->
 <!-- Named templates in case we want to       -->
