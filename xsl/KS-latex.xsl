@@ -106,37 +106,45 @@
     <xsl:text>\end{historicalnote}&#xa;</xsl:text>
 </xsl:template> -->
     <xsl:template match="reading-questions">
-        <xsl:text>\clearpage %bobwashere&#xa;</xsl:text>
+        <xsl:text>\clearpage %&#xa;</xsl:text>
     <xsl:apply-imports />
     </xsl:template>
-    
+
     <xsl:template match="exercises">
+        <xsl:text>\clearpage %&#xa;</xsl:text>
+    <xsl:apply-imports />
+    </xsl:template>
+
+    <xsl:template match="chapter">
         <xsl:text>\clearpage %bobwashere&#xa;</xsl:text>
     <xsl:apply-imports />
     </xsl:template>
 
 
-    <xsl:template match="exercise">
-        <!-- <xsl:text>\~%tomwashere&#xa;</xsl:text> -->
-    <xsl:apply-imports />
-    <xsl:text>%tomwashere&#xa;:text</xsl:text>
-        <!-- <xsl:text>\~&#xa;</xsl:text>
-    <xsl:text>\par&#xa;</xsl:text>
-    <xsl:text>\~&#xa;</xsl:text> -->
-    <xsl:text>&#xa;</xsl:text>
-    <xsl:text>&#xa;</xsl:text>
-    <xsl:text>\vspace* \parskip&#xa;</xsl:text>
-    <xsl:text>&#xa;</xsl:text>
-    <xsl:text>\noindent\begin{tikzpicture}&#xa;</xsl:text>
-    <xsl:text>rectangle (1,1);&#xa;</xsl:text>
-    <xsl:text>\foreach \y in {1,...,12} {&#xa;</xsl:text>
+    <xsl:template match="exercise"> 
+        \noindent\begin{minipage}{\textwidth} 
+        <xsl:apply-imports />
+        <xsl:choose>
+            <xsl:when test="hint|answer|solution">
+                <xsl:text>%tracywashere&#xa;</xsl:text> 
+\hyperlink{<xsl:value-of select="@xml:id" disable-output-escaping="yes" />-2-main}{Solution}
+            </xsl:when>
+        </xsl:choose>
+        <!-- <xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>\vspace* \parskip&#xa;</xsl:text> -->
+        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>\noindent\begin{tikzpicture}&#xa;</xsl:text>
+        <xsl:text>rectangle (1,1);&#xa;</xsl:text>
+        <xsl:text>\foreach \y in {1,...,12} {&#xa;</xsl:text>
         <xsl:text>\draw[very thin,black]&#xa;</xsl:text>
         <xsl:text>(0.2cm,-\y*\baselineskip) --&#xa;</xsl:text>
         <xsl:text>(\linewidth-0.4cm,-\y*\baselineskip); }&#xa;</xsl:text>
-    <xsl:text>\draw[very thin,white] (0.2cm,\baselineskip) -- (\linewidth-0.4cm,\baselineskip);&#xa;</xsl:text>
-    <xsl:text>\end{tikzpicture}&#xa;</xsl:text>
-    <xsl:text>&#xa;</xsl:text>
-    <xsl:text>\medskip&#xa;</xsl:text>
+        <xsl:text>\draw[very thin,white] (0.2cm,\baselineskip) -- (\linewidth-0.4cm,\baselineskip);&#xa;</xsl:text>
+        <xsl:text>\end{tikzpicture}&#xa;</xsl:text>
+        \end{minipage} 
+        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>\medskip&#xa;</xsl:text>
     </xsl:template>
 
 </xsl:stylesheet>

@@ -13,10 +13,10 @@
   <title>Reference</title>
   <appendix xml:id="appendix-list-results">
     <title>List of Results</title>
-      <list-of elements="axiom theorem corollary lemma proposition" divisions="chapter" empty="yes"/>
+      <list-of elements="axiom principle theorem corollary lemma algorithm proposition claim fact identity" divisions="chapter" empty="yes"/>
     </appendix>
     <xi:include href="./gfdl.xml" />
-    <xi:include href="./hints.xml" />
+    <!-- <xi:include href="./hints.xml" /> -->
     <xi:include href="./notation.xml" />
     <xi:include href="./index.xml" />
     <xi:include href="./colophon.xml" />

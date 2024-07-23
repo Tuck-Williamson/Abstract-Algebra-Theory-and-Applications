@@ -1151,8 +1151,7 @@
     </subsection>
 
   </section>
-  <section>
-    <title>Exercises</title>
+  
     <reading-questions permid="ibN">
 
       <exercise permid="Kix">
@@ -1205,7 +1204,6 @@
     <!-- Title: Preliminaries -->
     <exercises xml:id="sets-exercises" filenamebase="sets" permid="mDp">
       <title>Exercises</title>
-      <xref ref="ans-sets-exercises">Solutions</xref>
 
       <exercise number="1" permid="nnj" xml:id="sets-exercise-set-operations">
         <statement>
@@ -1240,7 +1238,6 @@
               </li>
             </ol>
           </p>
-          <xref text="custom" ref="ans-sets-exercises">Sln</xref>
         </statement>
         <hint permid="sGW">
           <p permid="rIU"> (a) <m>A \cap B = \{ 2 \}</m>; (b) <m>B \cap C = \{ 5 \}</m>. </p>
@@ -1678,7 +1675,7 @@
 
     </exercises>
 
-  </section>
+  
   <solutions xml:id="ans-sets-exercises" scope="sets-exercises" divisional="hint answer">
     <title>Solutions to selected sets exercises</title>
   </solutions>

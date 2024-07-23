@@ -170,6 +170,8 @@
     </p>
 
     <lemma xml:id="integers-lemma-smallest-number" permid="CWK">
+      <title>Smallest Number Lemma</title>
+      
       <statement>
         <p permid="Gug"> The Principle of Mathematical Induction implies that <m>1</m> is the least
           positive natural number. </p>
@@ -187,6 +189,8 @@
     <!--  Theorem reworded for clarity.  TWJ 12/17/2011 -->
     <!--  Suggested by K. Halasz and R. Beezer. -->
     <theorem xml:id="integers-theorem-pmi-implies-pwo" permid="KBj">
+      <title>The Principle of Mathematical Induction</title>
+      
       <statement>
         <p permid="BKn"> The Principle of Mathematical Induction implies the Principle of
           Well-Ordering. That is, every nonempty subset of <m>\mathbb N</m> contains a least
@@ -427,7 +431,7 @@
         </idx><term>composite</term>. </p>
 
       <lemma xml:id="integers-theorem-prime-divisor" permid="MLV">
-        <title>Euclid</title>
+        <title>Prime Divisor</title>
         <statement>
           <p permid="mBp"> Let <m>a</m> and <m>b</m> be integers and <m>p</m> be a prime number. If <m>p
             \mid ab</m>, then either <m>p \mid a</m> or <m>p \mid b</m>. </p>
@@ -444,7 +448,7 @@
       </lemma>
 
       <theorem xml:id="integers-theorem-infinite-primes" permid="AxD">
-        <title>Euclid</title>
+        <title>Infinite Number of Primes</title>
         <statement>
           <p permid="ufO">
             There exist an infinite number of primes.
@@ -554,9 +558,6 @@
     the numbers for which Goldbach's conjcture has been verified.  TWJ 4/7/2014-->
   </section>
 
-  <section>
-    <title>Exercises</title>
-
     <reading-questions permid="kWt">
 
       <exercise permid="aSn">
@@ -604,8 +605,6 @@
 
     <exercises xml:id="integers-exercises" filenamebase="integers" permid="Dsj">
       <title>Exercises</title>
-      <xref ref="ans-int-exercises" />
-
 
       <exercise number="1" permid="sTe" xml:id="integers-exercise-pmi-sum-squares">
         <statement>
@@ -1006,12 +1005,11 @@
 
     </exercises>
     <!--</section>-->
-  </section>
 
-  <solutions xml:id="ans-int-exercises" divisional="hint answer">
+  <!-- <solutions xml:id="ans-int-exercises" divisional="hint answer">
     <title>Solutions to selected exercises</title>
 
-  </solutions>
+  </solutions> -->
 
   <exercises xml:id="integers-exercises-programming" permid="jzs">
     <title>Programming Exercises</title>
@@ -1075,6 +1073,9 @@
   <!--Todo
   Fix intro to references-->
 
+  <solutions divisional="hint answer">
+    <title>Solutions to selected sets exercises</title>
+  </solutions>
   <references xml:id="integers-references" permid="Dta">
     <title>References and Suggested Readings</title>
     <!-- References updated - TWJ 5/4/2010 -->
