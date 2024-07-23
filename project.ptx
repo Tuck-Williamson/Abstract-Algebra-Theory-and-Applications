@@ -14,6 +14,8 @@
       xsl="KS-latex.xsl" />
     <target name="web" format="html" source="aata.xml" publication="public.xml"
       output-dir="output/web" />
+    <target name="kindle" format="epub" source="aata.xml" publication="epub.xml"
+      output-dir="output/kindle" />
   </targets>
   <!-- <executables>
       <latex>latex</latex>

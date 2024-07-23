@@ -29,6 +29,16 @@
     </credit>
 
     <credit>
+      <title>Conversion for Kindle Scribe</title>
+      <author>
+        <personname>Tuck Williamson</personname>
+        <department>Department of Computer Science</department>
+        <institution>College of Charleston</institution>
+        <!-- <email>beezer@pugetsound.edu</email> -->
+      </author>
+    </credit>
+
+    <credit>
       <title>Traducción al español</title>
       <author>
         <personname>Antonio Behn</personname>
@@ -259,4 +269,3 @@
     <line>Massat, France 2024</line></attribution>
   </preface>
 </frontmatter>
-
